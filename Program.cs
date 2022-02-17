@@ -11,11 +11,12 @@ namespace OOP_sem2_week4_Q1
         */
         private static void multiplicationTable(int number)
         {
+
             int result = 0;
             for (int i=2; i <= 10; i += 2)
             {
                 result = i * number;
-                Console.WriteLine(result);
+                Console.WriteLine(number);
             }
             
         }
